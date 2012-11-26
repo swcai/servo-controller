@@ -24,9 +24,9 @@ try:
       print c
       if c == 'i':
          sock.sendall('up\n')
-      if c == 'j':
-         sock.sendall('left\n')
       if c == 'l':
+         sock.sendall('left\n')
+      if c == 'j':
          sock.sendall('right\n')
       if c == 'k':
          sock.sendall('down\n')
